@@ -11,7 +11,7 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem,
-  NavbarText,
+  Alert,
   Button,
 } from "reactstrap";
 
@@ -21,6 +21,7 @@ class Header extends Component {
       <div>
         <Navbar color='light' light expand='md'>
           <NavbarBrand href='/'>Lifestyle</NavbarBrand>
+
           {/* <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className='mr-auto' navbar>
@@ -52,6 +53,7 @@ class Header extends Component {
             style={{ textAlign: "right", cursor: "pointer" }}>
             Create New Post
           </Button>
+          <Alert color='warning'>No, Validation XXXXXXX!</Alert>
         </Navbar>
       </div>
     );

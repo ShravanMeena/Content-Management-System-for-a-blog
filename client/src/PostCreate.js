@@ -44,7 +44,7 @@ class PostCreate extends Component {
     };
     axios({
       method: "post",
-      url: `http://localhost:8000/user/post`,
+      url: `https://lifestyleblogs.herokuapp.com/user/post`,
       //   headers: {
       //     Authorization: `Bearer ${this.props.getUserData.data.token}`,
       //   },

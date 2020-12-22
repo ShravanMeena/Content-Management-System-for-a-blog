@@ -37,7 +37,7 @@ class Register extends Component {
     };
     axios({
       method: "post",
-      url: `http://localhost:8000/register`,
+      url: `https://lifestyleblogs.herokuapp.com/register`,
       data: data,
     })
       .then((res) => {
@@ -55,6 +55,7 @@ class Register extends Component {
   render() {
     return (
       <div className='App'>
+        <Alert color='warning'>No, Validation XXXXXXX!</Alert>
         <Container className='formContainer'>
           <h2>Register</h2>
           {this.state.error ? (
