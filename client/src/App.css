@@ -1,0 +1,24 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 90vh;
+}
+.formContainer {
+  width: 40vw !important;
+  min-height: 50vh;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding-top: 30px;
+}
+.formContainer p {
+  text-align: center;
+}
+
+.formContainer h2 {
+  text-align: center;
+  font-size: 30;
+  margin-bottom: 50px;
+}
