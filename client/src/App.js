@@ -27,9 +27,10 @@ class App extends Component {
         <BrowserRouter>
           <Switch>
             <Route exact path='/' component={Register} />
-            <Route exact strict path='/login/' component={Login} />
+            <Route exact  path='/login' component={Login} />
 
-            <Route path='/user/post'>
+            <Route  exact
+            strict path='/user/post'>
               <Header createPost={this.createPost} />
               <Container>
                 {this.state.form ? (
